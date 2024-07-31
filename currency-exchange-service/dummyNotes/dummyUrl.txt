@@ -1,0 +1,12 @@
+
+url for currency exchange service
+http://localhost:8000/currency-exchange/from/USD/to/Nakfa
+
+
+insert into currency_exchange('id', 'currency_from', 'currency_to', 'conversion_multiple', 'environment')
+values (1L, 'Dollar', 'Nakfa', 15.99, '')
+    insert
+into currency_exchange('id', 'currency_from', 'currency_to', 'conversion_multiple', 'environment')
+values (2L, 'pound', 'Nakfa', 30.02, '')
+insert into currency_exchange('id', 'currency_from', 'currency_to', 'conversion_multiple', 'environment')
+values (3L, 'euro', 'Nakfa', 17.05, '')

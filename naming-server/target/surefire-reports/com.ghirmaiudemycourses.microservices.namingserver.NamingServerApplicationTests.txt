@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.ghirmaiudemycourses.microservices.namingserver.NamingServerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.319 s -- in com.ghirmaiudemycourses.microservices.namingserver.NamingServerApplicationTests

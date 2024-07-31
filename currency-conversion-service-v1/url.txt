@@ -1,0 +1,2 @@
+http://localhost:8100/currency-conversion/from/Dollar/to/Nakfa/quantity/1540
+http://localhost:8100/currency-conversion-feign/from/Dollar/to/Nakfa/quantity/4650

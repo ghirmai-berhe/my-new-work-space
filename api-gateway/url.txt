@@ -1,0 +1,8 @@
+http://localhost:8765/currency-conversion/from/Dollar/to/Nakfa/quantity/1540
+http://localhost:8765/currency-conversion-feign/from/Dollar/to/Nakfa/quantity/4650
+
+http://localhost:8765/currency-exchange/from/Dollar/to/Nakfa
+http://localhost:8765/currency-exchange/from/euro/to/Nakfa
+http://localhost:8765/v1/ram/taram/param/ram
+http://localhost:8765/v1/shat/shat
+http://localhost:8765/v1/bulk/bulk
