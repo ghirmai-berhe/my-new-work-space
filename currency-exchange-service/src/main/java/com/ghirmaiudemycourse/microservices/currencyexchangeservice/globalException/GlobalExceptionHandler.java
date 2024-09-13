@@ -18,6 +18,12 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         ExceptionResponse response = new ExceptionResponse(ex.getMessage(), LocalDateTime.now(),request.getDescription(false));
         return new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
     }
+    @ExceptionHandler(BadExchangeRateRequestException.class)
+    public  ResponseEntity<?> handlesBadExchangeRateRequestException(BadExchangeRateRequestException ex, WebRequest request){
+        ExceptionResponse response = new ExceptionResponse(ex.getMessage(),LocalDateTime.now(),request.getDescription(false));
+
+        return new ResponseEntity<>(response,HttpStatus.BAD_REQUEST);
+    }
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<?> handleGeneralException(Exception ex, WebRequest request){
         ExceptionResponse response = new ExceptionResponse(ex.getMessage(),LocalDateTime.now(),request.getDescription(false));

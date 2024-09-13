@@ -2,18 +2,15 @@ package com.ghirmaiudemycourse.microservices.currencyexchangeservice.model;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 
 import java.math.BigDecimal;
 
-@Setter
-@Getter
-@NoArgsConstructor
+@Data
+@Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
 public class CurrencyExchange {
    @Id

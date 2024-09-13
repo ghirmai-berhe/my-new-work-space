@@ -7,11 +7,11 @@ import com.ghirmaiudemycourse.microservices.currencyexchangeservice.repository.C
 import org.springframework.stereotype.Service;
 
 @Service
-public class CurrencyExchangeImpl implements CurrencyExchangeService{
+public class CurrencyExchangeServiceImpl implements CurrencyExchangeService{
 private CurrencyExchangeRepository exchangeRepository;
 private  CurrencyExchangeMapper mapper;
 
-public CurrencyExchangeImpl(CurrencyExchangeMapper mapper, CurrencyExchangeRepository exchangeRepository){
+public CurrencyExchangeServiceImpl(CurrencyExchangeMapper mapper, CurrencyExchangeRepository exchangeRepository){
     this.mapper =mapper;
     this.exchangeRepository =exchangeRepository;
 }

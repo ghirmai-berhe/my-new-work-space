@@ -1,2 +1,4 @@
-package com.ghirmaiudemycourse.microservices.currencyexchangeservice.dto;public class CurrencyExchangeResponse {
+package com.ghirmaiudemycourse.microservices.currencyexchangeservice.dto;
+
+public class CurrencyExchangeResponse {
 }
