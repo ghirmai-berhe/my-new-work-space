@@ -1,0 +1,2 @@
+package com.ghirmaiudemycourse.microservices.currencyexchangeservice.globalException;public class BadExchangeRateRequestException {
+}
