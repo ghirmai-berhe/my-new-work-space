@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 public class CurrencyExchangeDto {
     private Long id;
     @NotNull
-    @NotBlank
+    @NotBlank(message = " valid  currency that needs to be changed is required")
     private String from;
     @NotNull
     @NotBlank
