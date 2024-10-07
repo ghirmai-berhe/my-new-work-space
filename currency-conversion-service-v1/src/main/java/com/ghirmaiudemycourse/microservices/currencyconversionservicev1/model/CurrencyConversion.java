@@ -3,11 +3,11 @@ package com.ghirmaiudemycourse.microservices.currencyconversionservicev1.model;
 import lombok.*;
 
 import java.math.BigDecimal;
-@Setter
-@Getter
+
 @NoArgsConstructor
 @AllArgsConstructor
-@ToString
+@Data
+@Builder
 public class CurrencyConversion {
     private Long id;
     private String from;
