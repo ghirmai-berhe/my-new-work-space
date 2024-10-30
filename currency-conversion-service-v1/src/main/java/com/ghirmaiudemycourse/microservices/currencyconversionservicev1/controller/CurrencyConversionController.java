@@ -42,7 +42,7 @@ public class CurrencyConversionController {
         Map<String, String> uriVariable = new HashMap<>();
         uriVariable.put("from", from);
         uriVariable.put("to", to);
-
+         logger.info("hello Ghirmai");
         ResponseEntity<CurrencyConversion> response = restTemplateConfig.getRestTemplate()
                 .getForEntity("http://currency-exchange/currency-exchange/from/{from}/to/{to}", CurrencyConversion.class, uriVariable);
 
